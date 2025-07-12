@@ -1,6 +1,14 @@
 name: RandomTP
-version: '1.0'
-main: nap.randomTP.RandomTP
-api-version: '1.21'
-authors:
-  - NewAmazingPVP
+main: nap.randomtp.RandomTP
+version: 1.0
+api-version: 1.21
+description: Teleports everyone every minute; action-bar countdown, /startrandomtp toggle.
+author: NewAmazingPVP
+commands:
+  startrandomtp:
+    description: Toggle the random-TP loop on/off.
+    usage: /startrandomtp
+permissions:
+  randomtp.start:
+    description: Allow running /startrandomtp
+    default: true
