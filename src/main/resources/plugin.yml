@@ -2,3 +2,5 @@ name: RandomTP
 version: '1.0'
 main: nap.randomTP.RandomTP
 api-version: '1.21'
+authors:
+  - NewAmazingPVP
